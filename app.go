@@ -278,6 +278,18 @@ func (app *App) LegacyAmino() *codec.LegacyAmino {
 	return app.legacyAmino
 }
 
+func (app *App) InterfaceRegistry() codectypes.InterfaceRegistry {
+	return app.interfaceRegistry
+}
+
+func (app *App) GetTxConfig() client.TxConfig {
+	return app.txConfig
+}
+
+func (app *App) AppCodec() codec.Codec {
+	return app.appCodec
+}
+
 func (app *App) SimulationManager() *module.SimulationManager {
 	return nil
 }
