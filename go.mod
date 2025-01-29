@@ -1,4 +1,4 @@
-module github.com/noble-assets/noble/v8
+module github.com/Ryz0nd/noble/v8
 
 go 1.22.7
 
